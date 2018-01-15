@@ -1,0 +1,8 @@
+zuul: 
+  routes: 
+    api-1: 
+      path: /raty3/**
+      serviceId: product-s
+    api-2: 
+      path: /raty4/**
+      serviceId: eureka-client1
