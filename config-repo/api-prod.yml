@@ -1,8 +1,20 @@
 zuul: 
   routes: 
     api-1: 
-      path: /raty3/**
+      path: /raty1/**
       serviceId: product-s
     api-2: 
+      path: /raty2/**
+      serviceId: eureka-client1
+    api-3: 
+      path: /raty3/**
+      serviceId: product-s
+    api-4: 
       path: /raty4/**
+      serviceId: eureka-client1
+    api-5: 
+      path: /raty5/**
+      serviceId: product-s
+    api-6: 
+      path: /raty6/**
       serviceId: eureka-client1
